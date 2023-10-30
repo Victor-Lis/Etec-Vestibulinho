@@ -2,11 +2,7 @@ import React, { useContext } from 'react'
 import { Header, Logo, HeaderNav, HeaderNavLink, HeaderSubscribeButton } from './styles'
 import LogoSRC from '../../Assets/Logo.png'
 
-import { IndexContext } from '../../Contexts/index'
-
 export default function Navbar() {
-
-  const { page, setPage } = useContext(IndexContext)
 
   return (
     <Header>
