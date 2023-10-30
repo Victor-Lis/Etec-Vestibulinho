@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Header, Logo, HeaderNav, HeaderNavLink, HeaderSubscribeButton } from './styles'
 import LogoSRC from '../../Assets/Logo.png'
-// import Bot1 from '../../../Images/Bot1.png'
+
+import { IndexContext } from '../../Contexts/index'
 
 export default function Navbar() {
+
+  const { page, setPage } = useContext(IndexContext)
+
   return (
     <Header>
 
@@ -11,8 +15,8 @@ export default function Navbar() {
 
         <HeaderNav>
             <HeaderNavLink to='/'>Home</HeaderNavLink>
-            <HeaderNavLink to='/'>Ensino Técnico</HeaderNavLink>
-            <HeaderNavLink to='/'>Cursos</HeaderNavLink>
+            <HeaderNavLink to='/ensino-tecnico'>Ensino Técnico</HeaderNavLink>
+            <HeaderNavLink to='/cursos'>Cursos</HeaderNavLink>
         </HeaderNav>
 
         <HeaderSubscribeButton id="header-button" href='https://www.vestibulinhoetec.com.br/' target='_blank'>Inscreva-SE</HeaderSubscribeButton>

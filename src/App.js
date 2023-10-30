@@ -1,8 +1,15 @@
+import IndexProvider from "./Contexts";
 import Router from "./Router";
 
+
 function App() {
+
   return (
-    <Router/>
+    <IndexProvider>
+
+      <Router/>
+
+    </IndexProvider>
   );
 }
 

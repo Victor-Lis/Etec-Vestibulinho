@@ -16,7 +16,7 @@ export const Header = styled.header`
 
 export const Logo = styled.img`
   width: 80px;
-  height: 21.5px;
+  height: 18px;
   /* background: #fff; */
   margin-left: 10px;
   aspect-ratio: 3/4;
@@ -46,7 +46,6 @@ export const HeaderNavLink = styled(Link)`
   align-items: center;
   justify-content: center;
   position: relative;
-  /* border-bottom: 7.5px solid transparent; */
   transition: 400ms;
   color: rgb(136, 0, 219);
 
