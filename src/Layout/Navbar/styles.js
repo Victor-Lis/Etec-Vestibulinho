@@ -15,8 +15,8 @@ export const Header = styled.header`
 `
 
 export const Logo = styled.img`
-  width: 60px;
-  height: 20px;
+  width: 80px;
+  height: 21.5px;
   /* background: #fff; */
   margin-left: 10px;
   aspect-ratio: 3/4;
@@ -60,20 +60,20 @@ export const HeaderNavLink = styled(Link)`
 
 `
 
-export const HeaderSubscribeButton = styled.button`
-  background: 0;
+export const HeaderSubscribeButton = styled.a`
   color: rgb(136, 0, 219);
-  width: 135px;
-  height: 35px;
-  border-radius: 1px;
+  /* height: 35px; */
+  width: 100%;
   border: 1px solid rgb(86, 0, 199);
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
   transition: 400ms;
   letter-spacing: 0.1em;
   margin-right: 10px;
   font-size: .6rem;
-  padding: 0 1%;
-  max-width: 90px;
+  padding: 1.5% 1%;
+  max-width: 80px;
 
     &:hover{
 

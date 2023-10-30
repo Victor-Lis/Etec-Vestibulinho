@@ -15,7 +15,7 @@ export default function Navbar() {
             <HeaderNavLink to='/'>Cursos</HeaderNavLink>
         </HeaderNav>
 
-        <HeaderSubscribeButton id="header-button">Inscreva-se</HeaderSubscribeButton>
+        <HeaderSubscribeButton id="header-button" href='https://www.vestibulinhoetec.com.br/' target='_blank'>Inscreva-SE</HeaderSubscribeButton>
 
     </Header>
   )
