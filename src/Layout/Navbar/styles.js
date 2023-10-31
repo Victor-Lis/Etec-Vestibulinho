@@ -10,17 +10,22 @@ export const Header = styled.header`
   width: 100%;
   position: sticky;
   top: 0px;
-  background: linear-gradient(90deg, #060606, #1e1e1e 20%, #060606, #1e1e1e);
+  background: linear-gradient(90deg, #090909, #1f1f1f 20%, #090909, #1f1f1f);
   overflow: hidden;
 `
 
-export const Logo = styled.img`
-  width: 80px;
-  height: 18px;
-  /* background: #fff; */
+export const Logo = styled.img` 
+  display: none;
+  height: 24px;
   margin-left: 10px;
   aspect-ratio: 3/4;
-  /* flex: 1; */
+  @media (min-width: 500px){
+
+    display: inherit;
+    width: 100px;
+    height: 40px;
+
+  }
 `
 
 export const HeaderNav = styled.nav`
@@ -32,6 +37,12 @@ export const HeaderNav = styled.nav`
   max-width: 400px;
   height: 100%;
   margin: 0 2.5px;
+
+  @media (min-width: 500px){
+
+    max-width: 500px;
+
+  }
 `
 
 export const HeaderNavLink = styled(Link)`
@@ -41,27 +52,33 @@ export const HeaderNavLink = styled(Link)`
   text-align: center;
   height: 100%;
   padding: 0px 10px;
-  margin: 0px 5px;
+  margin: 0px 2.5px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   transition: 400ms;
-  color: rgb(136, 0, 219);
+  color: #9933ff;
 
     &:hover{
 
       cursor: pointer;
       transition: 40ms;
-      border-bottom: 7.5px solid rgb(86, 0, 199);
+      border-bottom: 7.5px solid #9933ff;
+
+    }
+
+    @media (min-width: 500px){
+
+      font-size: 1.1rem;
 
     }
 
 `
 
 export const HeaderSubscribeButton = styled.a`
-  color: rgb(136, 0, 219);
-  /* height: 35px; */
+  /* color: #9933ff; */
+  height: 25px;
   width: 100%;
   border: 1px solid rgb(86, 0, 199);
   text-transform: uppercase;
@@ -71,8 +88,11 @@ export const HeaderSubscribeButton = styled.a`
   letter-spacing: 0.1em;
   margin-right: 10px;
   font-size: .6rem;
-  padding: 1.5% 1%;
-  max-width: 80px;
+  max-width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fffa;
 
     &:hover{
 
@@ -83,4 +103,13 @@ export const HeaderSubscribeButton = styled.a`
       box-shadow: 0px 0px 20px rgb(46, 0, 106);
 
     }
+
+    @media (min-width: 500px){
+
+      font-size: 1rem;
+      max-width: 150px;
+      height: 30px;
+
+    }
+
 `
