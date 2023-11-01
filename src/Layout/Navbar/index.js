@@ -11,7 +11,7 @@ export default function Navbar() {
 
         <HeaderNav>
             <HeaderNavLink to='/'>Home</HeaderNavLink>
-            <HeaderNavLink to='/ensino-tecnico'>Ensino Técnico</HeaderNavLink>
+            {/* <HeaderNavLink to='/ensino-tecnico'>Ensino Técnico</HeaderNavLink> */}
             <HeaderNavLink to='/cursos'>Cursos</HeaderNavLink>
         </HeaderNav>
 

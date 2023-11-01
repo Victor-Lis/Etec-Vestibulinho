@@ -15,13 +15,12 @@ export const Header = styled.header`
 `
 
 export const Logo = styled.img` 
-  display: none;
   height: 24px;
-  margin-left: 10px;
+  width: 50px;
+  margin-left: 20px;
   aspect-ratio: 3/4;
   @media (min-width: 500px){
 
-    display: inherit;
     width: 100px;
     height: 40px;
 
@@ -32,8 +31,8 @@ export const HeaderNav = styled.nav`
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 80%;
+  justify-content: space-around;
+  width: 50%;
   max-width: 400px;
   height: 100%;
   margin: 0 2.5px;

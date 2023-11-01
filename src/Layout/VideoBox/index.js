@@ -1,19 +1,25 @@
-import React from 'react'
-import { Container, Video, Arrow } from './styles'
-// import VideoSRC from '../../Assets/sobre.mp4'
+import React, { useEffect } from 'react'
+import { Container, Title, Video, Arrow } from './styles'
 
 export default function VideoBox({navigate}) {
 
+  useEffect(() => {
+
+    console.log("Renderizou!")
+
+  }, [])
+
   return (
     <Container id="video-box">
+        <Title> Dia a Dia </Title>
         <Video
-            // src={VideoSRC}
+            src={"https://firebasestorage.googleapis.com/v0/b/vestibulinho-e6c24.appspot.com/o/sobre.mp4?alt=media&token=71adb586-fcdc-4df0-91f9-387b21519697&_gl=1*ijtcdy*_ga*MTI5ODMyMTc4NS4xNjg0NzU4MzY3*_ga_CW55HF8NVT*MTY5ODgzMjg1NS43Mi4xLjE2OTg4MzI4NjguNDcuMC4w"}
             volume={10}
             loop
-            autoPlay={true}
+            // autoPlay={true}
             controls={true}
         />
-        <Arrow/>
+        <Arrow onClick={() => navigate()}/>
     </Container>
   )
 }

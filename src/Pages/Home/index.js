@@ -1,8 +1,10 @@
 import React from 'react'
+import { Container } from './styles';
 
 import WelcomeBanner from '../../Layout/WelcomeBanner'
 import ContentBox from '../../Layout/ContentBox'
 import VideoBox from '../../Layout/VideoBox';
+import Choose from '../../Layout/Choose'
 
 export default function Home() {
 
@@ -24,11 +26,21 @@ export default function Home() {
     }
   }
 
+  const navigate3 = () => {
+    const element = document.getElementById('choose-box');
+    console.log(element)
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
-    <>
-      <WelcomeBanner navigate={navigate1} />
+    <Container>
+      <WelcomeBanner navigate={navigate1}/>
       <ContentBox navigate={navigate2}/>
-      <VideoBox/>
-    </>
+      <VideoBox navigate={navigate3}/> 
+      <Choose/>
+    </Container>
   )
 }

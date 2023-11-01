@@ -6,7 +6,7 @@ import Home from '../Pages/Home';
 
 import Navbar from '../Layout/Navbar';
 import Cursos from '../Pages/Cursos';
-import EnsinoTecnico from '../Pages/EnsinoTecnico';
+// import EnsinoTecnico from '../Pages/EnsinoTecnico';
 
 export default function Router() {
   return (
@@ -18,7 +18,7 @@ export default function Router() {
 
         <Route path='/' element={<Home/>}/>
         <Route path='/cursos' element={<Cursos/>}/>
-        <Route path='/ensino-tecnico' element={<EnsinoTecnico/>}/>
+        {/* <Route path='/ensino-tecnico' element={<EnsinoTecnico/>}/> */}
         {/* <Route path='*' element={<Error/>}/> */}
 
       </Routes>

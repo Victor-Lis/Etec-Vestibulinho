@@ -5,30 +5,51 @@ export const Container = styled.div`
 
     /* min-height: calc(70vh); */
     /* background: linear-gradient(150deg, #060606, #1e1e1e, #1e1e1e 20%, #060606); */
-    background: #1e1e1e;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 50% 0; */
-    height: 95vh;
+    padding: 15% 0 105% 0;
+    /* height: 95vh; */
 
     @media (min-width: 500px){
         
-        height: 112.5vh;
+        padding: .5% 0 .5% 0;
 
+    }
+
+`
+
+export const Title = styled.h3`
+
+    color: rgba(255, 215, 40);
+    font-size: 1.95rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 22.5%;
+    margin-bottom: 5%;
+    
+    @media (min-width: 500px){
+
+        margin: 0;
+        margin-top: 5.5%;
+        margin-bottom: 1%;
+       
     }
 
 `
 
 export const Video = styled.video`
 
-    width: 90%;
-    max-width: 500px;
-    height: 47.5%;
+    width: 80%;
     aspect-ratio: 3/4;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px;
+    background: #060606;
+
+    max-height: 400px;
+    max-width: 600px;
 
 `
 
@@ -36,20 +57,20 @@ const Floating2 = keyframes`
 
     0%{
 
-        transform: translateY(50px);
+        transform: translateY(5px);
 
     }
 
     50%{
 
-        transform: translateY(45px);
+        transform: translateY(0px);
 
     }
 
 
     100%{
 
-        transform: translateY(50px);
+        transform: translateY(5px);
 
     }
 
@@ -61,12 +82,13 @@ export const Arrow = styled(FiChevronDown)`
     color: rgba(255, 215, 40);
     font-size: 3rem;
     transition: .04s;
-    transform: translateY(50px);
-    margin-bottom: 4%;
+    transform: translateY(5px);
+    margin-top: 17.5%;
     
     @media (min-width: 500px){
 
         font-size: 4.25rem;
+        margin-top: 0%;
 
     }
 

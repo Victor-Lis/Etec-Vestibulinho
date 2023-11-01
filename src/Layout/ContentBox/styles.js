@@ -5,7 +5,7 @@ export const Container = styled.div`
 
     /* min-height: calc(70vh); */
     /* background: linear-gradient(40deg, #060606, #1e1e1e, #1e1e1e 20%, #060606); */
-    background: #1e1e1e;
+    /* background: #1e1e1e; */
     display: flex;
     flex-direction: column;
     justify-content: center;
