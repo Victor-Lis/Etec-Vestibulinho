@@ -5,7 +5,7 @@ export default function WelcomeBanner({navigate}) {
 
   return (
     <Container>
-        <Message> Bem vindos, futuros Etequianos!! </Message>
+        <Message> Bem vindos <br/> futuros Etequianos!! </Message>
         <Arrow onClick={() => navigate()}/>
     </Container>
   )

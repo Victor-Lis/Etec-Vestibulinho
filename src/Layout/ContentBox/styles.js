@@ -145,12 +145,12 @@ export const SubscribeButton = styled.a`
 
     &:hover{
 
-        background: rgba(255, 215, 40);
+        background: linear-gradient(150deg, rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40));
         cursor: pointer;
         animation: ${Floating} .2s infinite linear;
         transition: 400ms;
         box-shadow: 0px 0px 10px rgba(255, 215, 40);
-
+        color: #1e1e1e;
         /* opacity: 0.6; */
 
     }

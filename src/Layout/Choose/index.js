@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Title, SubTitle, Video } from './styles'
+import { Container, Title, SubTitle, Video, VideoIframe } from './styles'
 // import VideoSRC from '../../Assets/sobre.mp4'
 
 export default function Choose({navigate}) {

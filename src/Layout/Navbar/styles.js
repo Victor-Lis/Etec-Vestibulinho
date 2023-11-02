@@ -15,14 +15,14 @@ export const Header = styled.header`
 `
 
 export const Logo = styled.img` 
-  height: 24px;
+  height: 100px;
   width: 50px;
   margin-left: 20px;
-  aspect-ratio: 3/4;
+  aspect-ratio: 2/1;
   @media (min-width: 500px){
 
-    width: 100px;
-    height: 40px;
+    width: 75px;
+    height: 120px;
 
   }
 `
@@ -57,13 +57,13 @@ export const HeaderNavLink = styled(Link)`
   justify-content: center;
   position: relative;
   transition: 400ms;
-  color: #9933ff;
+  color: #fff;
 
     &:hover{
 
       cursor: pointer;
       transition: 40ms;
-      border-bottom: 7.5px solid #9933ff;
+      border-bottom: 7.5px solid rgba(255, 215, 40);
 
     }
 
@@ -76,10 +76,9 @@ export const HeaderNavLink = styled(Link)`
 `
 
 export const HeaderSubscribeButton = styled.a`
-  /* color: #9933ff; */
   height: 25px;
   width: 100%;
-  border: 1px solid rgb(86, 0, 199);
+  border: 1px solid rgba(255, 215, 40);
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -91,15 +90,15 @@ export const HeaderSubscribeButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fffa;
+  color: #fff;
 
     &:hover{
 
       cursor: pointer;
       transition: 400ms;
-      background: rgb(86, 0, 199);
-      color: white;
-      box-shadow: 0px 0px 20px rgb(46, 0, 106);
+      background: linear-gradient(150deg, rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40));
+      color: #1e1e1e;
+      box-shadow: 0px 0px 20px rgba(255, 215, 40);
 
     }
 

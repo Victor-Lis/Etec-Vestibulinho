@@ -21,14 +21,68 @@ export const Container = styled.div`
 
 `
 
+const Spinning = keyframes`
+
+    0%{
+
+        background: linear-gradient(150deg, rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        
+    }
+
+    25%{
+
+        background: linear-gradient(150deg, rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+    }
+
+    50%{
+
+        background: linear-gradient(150deg, rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+    }
+
+    75%{
+
+        background: linear-gradient(150deg, rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+    }
+
+    100%{
+
+        background: linear-gradient(150deg, rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+    }
+
+`
+
 export const Title = styled.h3`
 
-    color: rgba(255, 215, 40);
+    background: linear-gradient(150deg, rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: 1.95rem;
     text-transform: uppercase;
     text-align: center;
     margin-top: 22.5%;
     margin-bottom: 5%;
+    animation: ${Spinning} 20s linear infinite;
+    filter: drop-shadow(0px 0px 10px rgba(255, 215, 40));
     
     @media (min-width: 500px){
 

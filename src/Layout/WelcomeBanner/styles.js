@@ -75,12 +75,13 @@ export const Message = styled.h2`
 
     margin-top: 10%;
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.75rem;
     text-transform: uppercase;
     text-align: center;
     background: linear-gradient(150deg, rgba(255, 215, 40), rgba(255, 255, 40), rgba(255, 215, 40), rgba(255, 255, 40));
     animation: ${Spinning} 20s linear infinite;
     transition: 5s;
+    filter: drop-shadow(0px 0px 10px rgba(255, 215, 40));
 
     @media (min-width: 500px) {
         margin-top: 0%;
