@@ -7,30 +7,14 @@ export default function Choose({navigate}) {
   return (
     <Container id="choose-box">
         <Title> Conheça os cursos </Title>
-        <SubTitle> Administração </SubTitle>
-        <Video
-            // src={VideoSRC}
-            volume={10}
-            loop
-            // autoPlay={true}
-            controls={true}
-        />
-        <SubTitle> Marketing </SubTitle>
-        <Video
-            // src={VideoSRC}
-            volume={10}
-            loop
-            // autoPlay={true}
-            controls={true}
-        />
-        <SubTitle> Desenvolvimento de Sistemas </SubTitle>
-        <Video
-            // src={VideoSRC}
-            volume={10}
-            loop
-            // autoPlay={true}
-            controls={true}
-        />
+          <SubTitle> Administração </SubTitle>
+          <VideoIframe/>
+
+          <SubTitle> Marketing </SubTitle>
+          <VideoIframe/>
+          
+          <SubTitle> Desenvolvimento de Sistemas </SubTitle>
+          <VideoIframe/>
     </Container>
   )
 }
