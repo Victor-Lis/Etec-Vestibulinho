@@ -107,6 +107,20 @@ export const Video = styled.video`
 
 `
 
+export const VideoIframe = styled.iframe`
+
+    width: 80%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 10px;
+    background: #060606;
+
+    max-height: 400px;
+    max-width: 600px;
+    
+`
+
+
 const Floating2 = keyframes`
 
     0%{
