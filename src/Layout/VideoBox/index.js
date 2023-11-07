@@ -6,7 +6,7 @@ export default function VideoBox({ navigate }) {
   return (
     <Container id="video-box">
       <Title> Dia a Dia </Title>
-      <Video
+      <VideoIframe
         src={"https://www.youtube.com/embed/NVTKsSQIg10a"}
         volume={10}
         loop
