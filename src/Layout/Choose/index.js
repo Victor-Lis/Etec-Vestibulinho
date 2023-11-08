@@ -15,7 +15,6 @@ export default function Choose({navigate}) {
 
           <SubTitle> Marketing </SubTitle>
           <VideoIframe src={"https://youtube.com/embed/Mz6_VoDy1dw"}/>
-
     </Container>
   )
 }
