@@ -8,7 +8,7 @@ export default function Choose({navigate}) {
     <Container id="choose-box">
         <Title> Conheça os cursos </Title>
           <SubTitle> Administração </SubTitle>
-          <VideoIframe/>
+          <VideoIframe src={"https://youtube.com/embed/tIWWroRfxOM"}/>
 
           <SubTitle> Marketing </SubTitle>
           <VideoIframe/>
