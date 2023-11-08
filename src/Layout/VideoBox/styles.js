@@ -110,7 +110,7 @@ export const Video = styled.video`
 export const VideoIframe = styled.iframe`
 
     width: 80%;
-    min-height: 275px;
+    min-height: 325px;
     aspect-ratio: 4/3;
     object-fit: cover;
     border-radius: 10px;
