@@ -47,35 +47,37 @@ const Shadow = keyframes`
 export const Content = styled.div`
 
     background: linear-gradient(100deg, #1a1a1a 20%, #0f0f0f 20%, #1a1a1a 20%, #0f0f0f);
-    padding: 0 8%;
-    padding-top: 4.5%;
-    padding-bottom: 6%;
-    max-width: 300px;
-    max-height: 280px;
-    box-shadow: 0px 0px 5px 1px #fffa;
+
+    max-width: 90%;
+    padding: 0 3%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+
     border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px #fffa;
     animation: ${Shadow} 5s ease-in-out linear;
 
     @media (min-width: 500px){
 
-        height: 51%;
+        /* height: 51%; */
         padding: 0 5%;
-        padding-top: 2.25%;
-        max-width: 350px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        max-width: 300px;
         /* padding-bottom: .05%; */
 
     }
 
 `
 
-export const ContentTitle = styled.h3`
+export const ContentTitle = styled.h4`
 
     text-transform: uppercase;
     color: rgba(255, 215, 40);
-    transform: translateX(-15px);
-
+    
     @media (min-width: 500px){
-
+        
+        transform: translateX(-15px);
         font-size: 1.30rem
 
     }
@@ -86,9 +88,10 @@ export const ContentDescription = styled.p`
 
     color: #fff;
     margin: 5px 0;
-    margin-top: 15px;
-    margin-bottom: 25px;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* background-color: red; */
 
     @media (min-width: 500px){
 
@@ -142,6 +145,7 @@ export const SubscribeButton = styled.a`
     letter-spacing: 0.1em;
     font-weight: bold;
     text-decoration: none;
+    margin-bottom: 2%;
 
     &:hover{
 

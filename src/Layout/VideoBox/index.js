@@ -7,7 +7,7 @@ export default function VideoBox({ navigate }) {
     <Container id="video-box">
       <Title> Dia a Dia </Title>
       <VideoIframe
-        src={"https://www.youtube.com/embed/NVTKsSQIg10a"}
+        src={"https://www.youtube.com/embed/NVTKsSQIg10"}
       />
       <Arrow onClick={() => navigate()} />
     </Container>

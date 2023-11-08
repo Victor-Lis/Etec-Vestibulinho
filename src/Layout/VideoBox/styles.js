@@ -79,7 +79,7 @@ export const Title = styled.h3`
     font-size: 1.95rem;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 22.5%;
+    margin-top: 21.5%;
     margin-bottom: 5%;
     animation: ${Spinning} 20s linear infinite;
     filter: drop-shadow(0px 0px 10px rgba(255, 215, 40));
@@ -110,13 +110,18 @@ export const Video = styled.video`
 export const VideoIframe = styled.iframe`
 
     width: 80%;
-    aspect-ratio: 3/4;
+    min-height: 275px;
+    aspect-ratio: 4/3;
     object-fit: cover;
     border-radius: 10px;
     background: #060606;
 
     max-height: 400px;
     max-width: 600px;
+    @media (min-width: 500px){
+
+
+    }
     
 `
 
@@ -151,7 +156,7 @@ export const Arrow = styled(FiChevronDown)`
     font-size: 3rem;
     transition: .04s;
     transform: translateY(5px);
-    margin-top: 17.5%;
+    margin-top: 3.5%;
     
     @media (min-width: 500px){
 
