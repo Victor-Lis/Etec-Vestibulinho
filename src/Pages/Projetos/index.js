@@ -4,7 +4,7 @@ import CursoSection from '../../Layout/CursoSection'
 
 import { IndexContext } from '../../Contexts/index'
 
-export default function Cursos() {
+export default function Projetos() {
 
   const { keys } = useContext(IndexContext)
 
