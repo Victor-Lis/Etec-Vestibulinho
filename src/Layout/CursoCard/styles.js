@@ -3,6 +3,7 @@ import styled, { keyframes } from 'styled-components'
 export const VideoCard = styled.div`
 
     min-width: 320px;
+    max-width: 450px;
     overflow: hidden;
     border: 0.1px solid #fff;   
     border-radius: 15px;
@@ -33,11 +34,11 @@ export const VideoCardTitle = styled.h2`
     color: transparent; 
     font-size: .80rem;
     text-transform: uppercase;
-    width: 95%;
+    /* width: 95%; */
     padding: 0 2.5%;
     text-align: left;
     margin: 05px 0 10px 0;
-    
+
     @media (min-width: 500px){
         font-size: 1.25rem;
     }
@@ -52,7 +53,7 @@ export const VideoCardCreatedBy = styled.h2`
     color: transparent; 
     font-size: .75rem;
     margin-bottom: 1.5%;
-    width: 95%;
+    /* width: 95%; */
     padding: 0 2.5%;
     text-align: left;
     margin: 5px 0 10px 0;

@@ -12,7 +12,7 @@ export default function Navbar() {
         <HeaderNav>
             <HeaderNavLink to='/'>Home</HeaderNavLink>
             {/* <HeaderNavLink to='/ensino-tecnico'>Ensino Técnico</HeaderNavLink> */}
-            <HeaderNavLink to='/cursos'>Cursos</HeaderNavLink>
+            <HeaderNavLink to='/projetos'>Projetos</HeaderNavLink>
         </HeaderNav>
 
         <HeaderSubscribeButton id="header-button" href='https://www.vestibulinhoetec.com.br/' target='_blank'>Inscreva-SE</HeaderSubscribeButton>

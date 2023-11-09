@@ -29,6 +29,8 @@ export default function IndexProvider({children}){
             
             if(data){
                 let keys = Object.keys(data)
+                keys = keys.filter(key => key != "Intercurso")
+                keys.push("Intercurso")
                 setKeys(keys)
                 setVideos(data)
             }
