@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 🎓 Vestibulinho ETEC - Portal Informativo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistema web desenvolvido para apresentar informações e divulgar os cursos técnicos da ETEC Professor Carmine Biagio Tundisi.
 
-## Available Scripts
+## ✨ Principais Recursos
 
-In the project directory, you can run:
+- 🎥 **Vídeos dos Cursos**: Apresentação dos cursos técnicos disponíveis
+- 📱 **Design Responsivo**: Interface adaptável para todos os dispositivos
+- 🔄 **Navegação Suave**: Transições fluidas entre as seções
+- 🎨 **Visual Moderno**: Estilização com gradientes e animações
+- 📊 **Organização**: Conteúdo estruturado por cursos
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Firebase](https://firebase.google.com/)
+- [React Router Dom](https://reactrouter.com/)
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como Executar
 
-### `npm run build`
+```bash
+# Instalar dependências
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Executar em desenvolvimento
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Gerar build de produção
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## 📱 Páginas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Home**: Banner de boas-vindas e informações principais
+- **Projetos**: Galeria de vídeos organizados por curso
+- **Cursos**: Detalhes sobre cada curso técnico
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎯 Objetivo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Facilitar o acesso às informações sobre os cursos técnicos da ETEC e auxiliar futuros alunos no processo do Vestibulinho.
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👨‍💻 Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido com ❤️ por [Victor Lis](https://www.linkedin.com/in/victor-lis-bronzo) | 
+Desenvolvido com 💛 para a Etec Professor Carmine Biagio Tundisi.
